@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.daria.edu.machinelearning</groupId>
+	<artifactId>mahout</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<name>Apache Mahout Test App</name>
+	<description>Apache Mahout Test App</description>
+
+	<properties>
+		<mahout.core.version>0.9</mahout.core.version>
+		<slf4j.version>1.7.7</slf4j.version>
+		<logback.version>1.1.2</logback.version>
+	</properties>
+
+	<dependencies>
+		
+		<!-- Machine Learning -->
+		
+		<dependency>
+			<groupId>org.apache.mahout</groupId>
+			<artifactId>mahout-core</artifactId>
+			<version>${mahout.core.version}</version>
+		</dependency>
+
+
+		<!-- Logging  -->
+		
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>${logback.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-core</artifactId>
+			<version>${logback.version}</version>
+		</dependency>
+
+
+	</dependencies>
+</project>
